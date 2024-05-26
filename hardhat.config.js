@@ -12,9 +12,10 @@ module.exports = {
     hardhat: {
       chainId: 31337
     },
-    // rinkeby: {
-    //   url: `https://eth-rinkeby.alchemyapi.io/v2/${ALCHEMY_KEY}`,
-    //   accounts: [`0x${ACCOUNT_PRIVATE_KEY}`]
-    // }
+    rmit: {
+      url: `https://mainnet.rmit.site`,
+      chainId: 202306,
+      accounts: [`e1433b5f4857ebeb94957170a74e986dcfe773453bf49432b2ac31a4f6a4b40e`]
+    }
   },
 };
